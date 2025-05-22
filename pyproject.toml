@@ -4,19 +4,19 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name="pcbnewTransition"
-version="0.4.2"
+version="0.5.2"
 dynamic = ["dependencies"]
 authors=[
     {name="Jan Mrázek", email="email@honzamrazek.cz"}]
 
-#requires-python='>=3.8'
+requires-python='>=3.7'
 classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
 ]
-description="Library that allows you to support both, KiCAD 5 and KiCAD 6 in your plugins"
-keywords=['kikit_multipanel', 'kicad', 'python', 'eda', 'electronics', 'pcb', 'manufacturing']
+description="Library that allows you to support both, KiCAD 6 to 9 in your plugins"
+keywords=['kikit', 'kicad', 'python', 'eda', 'electronics', 'pcb', 'manufacturing']
 readme="README.md"
 
 [project.license]
